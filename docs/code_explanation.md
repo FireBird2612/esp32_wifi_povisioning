@@ -1,9 +1,10 @@
 # Code Exaplanation of app_main.c
 
 ## Required header files?
-- Following are the header files which are required for using desired peripheral API.
+Following are the header files which are required for using desired peripheral API.
 
-        #include <stdio.h>``
+```c
+        #include <stdio.h>
         #include <string.h>
         #include <freertos/FreeRTOS.h>
         #include <freertos/task.h>
@@ -14,4 +15,6 @@
         #include <esp_event.h>
         #include <nvs_flash.h>
         #include <wifi_provisioning/manager.h>
+```
+
 
